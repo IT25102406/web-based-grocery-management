@@ -1,9 +1,5 @@
 # 🛒 FreshMart — Online Grocery Ordering & Management System
 
-FreshMart is a full-featured, 3-tier e-commerce grocery ordering and inventory management system built with **Java (DAO Pattern)**, **MS SQL Server / MySQL**, and a modern **Vanilla JavaScript / HTML5 / CSS3** web frontend.
-
----
-
 ## 👥 Team Members & Domain Allocation
 
 | Member Name | Assigned Module / Feature Domain | Frontend Files | Backend Java Files | Database Tables |
@@ -17,9 +13,6 @@ FreshMart is a full-featured, 3-tier e-commerce grocery ordering and inventory m
 
 ---
 
-## ⚡ Quick Start (1-Click Run)
-
-No complex build setup or IDE needed:
 
 1. **Start the System**: Double-click **`RUN_FRESHMART.bat`** (or `Full-Grocery-System/start-all.bat`).
    - Automatically starts the database container (if Docker is used).
@@ -29,16 +22,6 @@ No complex build setup or IDE needed:
    - Opens `http://localhost:8000/index.html` in your default browser.
 2. **Stop the System**: Double-click **`STOP_FRESHMART.bat`** (or `Full-Grocery-System/stop-all.bat`).
 
----
-
-## 🛠️ Technology Stack
-
-- **Frontend:** HTML5, CSS3 (Responsive UI), Vanilla JavaScript (Modular ES6+ architecture), Fetch API.
-- **Backend:** Java SE (Standard Library HTTP Server `com.sun.net.httpserver`), Repository / DAO Design Pattern.
-- **Database:** Microsoft SQL Server 2022 (Docker or SSMS) / MySQL compatible schema.
-- **Communication:** RESTful JSON APIs across all operations (Cart, Orders, Products, Reviews, Inquiries, Payments, Users).
-
----
 
 ## 📂 Project Structure
 
